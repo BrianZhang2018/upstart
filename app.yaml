@@ -1,0 +1,13 @@
+app: &common
+  dbTable: "customer"
+local:
+  <<: *common
+
+dev:
+  <<: *common
+
+qa:
+  <<: *common
+
+prod:
+  <<: *common
